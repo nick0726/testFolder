@@ -1,0 +1,11 @@
+#MobileMenu {
+  height: 8rem;
+  transition: 0.01s all ease;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mobileMenu-active #MobileMenu {
+  opacity: 1;
+}

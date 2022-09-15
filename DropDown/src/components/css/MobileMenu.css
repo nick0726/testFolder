@@ -1,11 +1,16 @@
 #MobileMenu {
-  height: 8rem;
+  height: 10rem;
   transition: 0.01s all ease;
   opacity: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  cursor: pointer;
 }
 .mobileMenu-active #MobileMenu {
   opacity: 1;
+}
+
+.nav-menuFoldRef-active {
+  background-color: red;
 }

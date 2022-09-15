@@ -26,7 +26,6 @@
 }
 
 .nav-menu {
-  cursor: pointer;
   margin-right: 2rem;
 }
 
@@ -41,6 +40,26 @@
 }
 
 .mobileMenu-active {
-  height: 8rem;
+  background: gray;
+  height: 100vh;
   opacity: 1;
+}
+
+.content-body {
+  z-index: -1;
+}
+
+.nav-menuFoldRef {
+  /* position: absolute; */
+  transition: 0.5s all ease;
+  width: 100vw;
+  height: 0;
+  opacity: 0;
+  border: 1px solid blue;
+}
+
+.menuFoldRef-active {
+  height: 15vh;
+  opacity: 1;
+  border: 1px solid blue;
 }
